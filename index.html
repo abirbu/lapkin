@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title and Favicon -->
+    <title>Paul Lapkin</title>
+    <link rel="shortcut icon" href="Resources/img/favicon.png" type="image/x-icon">
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="Vendors/CSS/uikit.min.css">
+    <link rel="stylesheet" href="Resources/CSS/style.css">
+    <link rel="stylesheet" href="Resources/CSS/query.css">
+</head>
+<body>
+    <!-- Header Section Start -->
+    <header id="hero">
+        <div onclick="CloseMenu()" id="ham-nav-menu" class="ham-menu-container">
+            <ion-icon name="close-outline"></ion-icon>
+            <div class="nav-menu">
+                <ul>
+                    <li><a onclick="CloseMenu()" href="#hero">Home</a></li>
+                    <li><a onclick="CloseMenu()" href="#about">About</a></li>
+                    <li><a onclick="CloseMenu()" href="#working-process">working process</a></li>
+                    <li><a onclick="CloseMenu()" href="#experience">Experience</a></li>
+                    <li><a onclick="CloseMenu()" href="#portfolio">Portfolio</a></li>
+                    <li><a onclick="CloseMenu()" href="#testimonial">Testimonial</a></li>
+                    <li><a onclick="CloseMenu()" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <nav uk-sticky="start: 800; animation: uk-animation-slide-top">
+            <div class="row">
+                <img src="Resources/img/logo.png" alt="Paul" class="logo">
+                <a class="nav-icon" onclick="OpenMenu()"><ion-icon name="menu-outline"></ion-icon></a>
+            </div>
+        </nav>
+        <div class="hero-text-box">
+            <h1 class="uk-animation-scale-up">Paul Lapkin</h1>
+            <span class="uk-animation-scale-up" >Professional Web Developer</span>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- About Section Start -->
+    <section id="about">
+        <div class="row">
+            <div class="grid-about-container">
+                <div class="grid-about-item" uk-scrollspy="cls: uk-animation-slide-left-small; repeat: true">
+                    <div class="paul">
+                        <img src="Resources/img/paul.jpg" alt="paul" class="paul-img">
+                    </div>
+                </div>
+                <div class="grid-about-item" uk-scrollspy="cls: uk-animation-slide-right-small; repeat: true">
+                    <p class="intro">Hi there! I'm Paul Lapkin, experienced Web Developer</p>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. A harum ea modi voluptatibus obcaecati, accusantium aliquid impedit numqu. <br><br> consequuntur odit repudiandae aut atque eum. Laborum autem expedita consectetur excepturi dolorum ab quaerat dicta obcaecati. Odit iusto nesciunt quidem et fugiat laudantium, dolorem voluptates? Quis quisquam autem totam nostrum exercitationem.</p>
+                    <div class="about-cta">
+                        <a href="" class="btn btn-full">
+                            Hire Me!
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+
+    <!-- Working Process Section Start -->
+
+    <section id="working-process">
+        <div class="row">
+            <div class="section-title">
+                <h2>My Working Process</h2>
+                <p>Hi there! I'm paul lapkin experienced web Developer</p>
+            </div>
+            <div class="grid-process-container">
+                <div class="grid-process-item" uk-scrollspy="cls: uk-animation-scale-up; repeat: true">
+                    <ion-icon name="desktop-outline"></ion-icon>
+                    <h4>Design</h4>
+                </div>
+                <div class="grid-process-item" uk-scrollspy="cls: uk-animation-scale-up; repeat: true">
+                    <ion-icon name="code-working-outline"></ion-icon>
+                    <h4>Development</h4>
+                </div>
+                <div class="grid-process-item" uk-scrollspy="cls: uk-animation-scale-up; repeat: true">
+                    <ion-icon name="cog-outline"></ion-icon>
+                    <h4>Testing</h4>
+                </div>
+                <div class="grid-process-item" uk-scrollspy="cls: uk-animation-scale-up; repeat: true">
+                    <ion-icon name="rocket-outline"></ion-icon>
+                    <h4>Launch</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Working Process Section End -->
+
+
+    <!-- Experience Section Start -->
+    <section id="experience">
+        <div class="row">
+            <div class="grid-experience-container">
+                <div class="grid-experience-item" uk-scrollspy="cls: uk-animation-slide-left-small; repeat: true">
+                    <h4>Experience</h4>
+                    <div class="job">
+                        <h4>Jr. Web Developer</h4>
+                        <span>13 OCT 2018- 20 JAN 2022</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus commodi quam aliquid animi vel dicta dolorum sed recusandae itaque enim.</p>
+                    </div>
+                    <hr>
+                    <div class="job">
+                        <h4>Internship on Web Development</h4>
+                        <span>13 OCT 2018- 20 JAN 2022</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus commodi quam aliquid animi vel dicta dolorum sed recusandae itaque enim.</p>
+                    </div>
+                </div>
+                <div class="grid-experience-item" uk-scrollspy="cls: uk-animation-slide-right-small; repeat: true">
+                    <h4>Education</h4>
+                    <div class="job">
+                        <h4>University of Barishal</h4>
+                        <span>13 OCT 2018- 20 JAN 2022</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus commodi quam aliquid animi vel dicta dolorum sed recusandae itaque enim.</p>
+                    </div>
+                    <hr>
+                    <div class="job">
+                        <h4>Coders Foundation</h4>
+                        <span>13 OCT 2018- 20 JAN 2022</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus commodi quam aliquid animi vel dicta dolorum sed recusandae itaque enim.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Experience Section End -->
+
+    <!-- Portfolio Section start -->
+
+    <section id="portfolio">
+        <div class="row">
+            <div class="section-title">
+                <h2>Portfolio</h2>
+                <p>Professional Web Developer</p>
+            </div>
+            <div class="portfolio-filter">
+                <button type="button" data-filter="all">All</button>
+                <button type="button" data-filter=".web-design">Web Design</button>
+                <button type="button" data-filter=".web-dev">Web Development</button>
+                <button type="button" data-filter=".wp">WordPress</button>
+            </div>
+            <div class="grid-portfolio-container" uk-lightbox>
+                <div class="grid-portfolio-item mix web-design">
+                    <a href="Resources/CSS/img/p1.jpg" data-caption="Web Design">
+                        <img src="Resources/CSS/img/p1.jpg" alt="Portfolio">
+                    </a>
+                </div>
+                <div class="grid-portfolio-item mix web-dev">
+                    <a href="Resources/CSS/img/p2.jpg" data-caption="Web Design">
+                        <img src="Resources/CSS/img/p2.jpg" alt="Portfolio">
+                    </a>
+                </div>
+                <div class="grid-portfolio-item mix web-dev">
+                    <a href="Resources/CSS/img/p3.jpg" data-caption="Web Design">
+                        <img src="Resources/CSS/img/p3.jpg" alt="Portfolio">
+                    </a>
+                </div>
+                <div class="grid-portfolio-item mix web-design">
+                    <a href="Resources/CSS/img/p4.jpg" data-caption="Web Design">
+                        <img src="Resources/CSS/img/p4.jpg" alt="Portfolio">
+                    </a>
+                </div>
+                <div class="grid-portfolio-item mix wp">
+                    <a href="Resources/CSS/img/p5.jpg" data-caption="Web Design">
+                        <img src="Resources/CSS/img/p5.jpg" alt="Portfolio">
+                    </a>
+                </div>
+                <div class="grid-portfolio-item mix wp">
+                    <a href="Resources/CSS/img/p6.jpg" data-caption="Web Design">
+                        <img src="Resources/CSS/img/p6.jpg" alt="Portfolio">
+                    </a>
+                </div>
+                <div class="grid-portfolio-item mix web-dev">
+                    <a href="Resources/CSS/img/p7.jpg" data-caption="Web Design">
+                        <img src="Resources/CSS/img/p7.jpg" alt="Portfolio">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section End -->
+
+
+    <!-- Testimonial Section Start -->
+    <section id="testimonial">
+        <div class="row">
+            <div class="section-title">
+                <h2>Testimonial</h2>
+                <p>Professional Web Developer</p>
+            </div>
+            <div class="grid-testimonial-container">
+                <div class="grid-testimonial-item" uk-scrollspy="cls: uk-animation-slide-left-small; repeat: true">
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error omnis, eius impedit fuga nostrum enim dignissimos reprehenderit iure odio doloremque, necessitatibus provident, ducimus nam ipsam nobis nihil modi voluptatem ab?</p>
+                    <img src="Resources/img/signature.png" alt="signature">
+                    <h4>Avishek Mondol</h4>
+                    <p>CEO</p>
+                </div>
+                <div class="grid-testimonial-item" uk-scrollspy="cls: uk-animation-slide-right-small; repeat: true">
+                    <img class="man" src="Resources/img/testimonialimg.jpg" alt="img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact">
+        <div class="row">
+            <div class="grid-contact-container">
+                <div class="grid-contact-item" uk-scrollspy="cls: uk-animation-slide-left-small; repeat: true">
+                    <h3>Leave a Message</h3>
+                    <form action="#" class="form">
+                        <input type="text" class="single-form" placeholder="Name*" required>
+                        <input type="email" class="single-form" placeholder="Email*" required>
+                        <input type="text" class="single-form" placeholder="Subject*" required>
+                        <textarea cols="30" rows="10" placeholder="Don't Hasitate to reach out me"></textarea>
+                        <input type="submit" value="Hire Me!">
+                    </form>
+                </div>
+                <div class="grid-contact-item">
+                    <div class="nested-grid-contact-container" uk-scrollspy="cls: uk-animation-slide-right-small; repeat: true">
+                        <div class="nested-grid-contact-item">
+                            <h3>Address</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus necessitatibus molestiae delectus quod recusandae fuga unde, pariatur dicta nemo eaque.</p>
+                        </div>
+                        <div class="nested-grid-contact-item">
+                            <h3>Phone</h3>
+                            <p>01776344646 <br>01625269817</p>
+                        </div>
+                        <div class="nested-grid-contact-item">
+                            <h3>Website</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus necessitatibus molestiae delectus quod recusandae fuga unde, pariatur dicta nemo eaque.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+
+
+    <!-- Footer Section Start -->
+    <footer id="footer">
+        <div class="row">
+            <ul class="Social-icon">
+                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-google"></ion-icon></a></li>
+            </ul>
+            <div class="copyright">
+                <p>copyright: All right reserved Abir</p>
+            </div>
+            <div class="totop">
+                <a href="" uk-totop></a>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+    <!-- Necessery Script tags -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script  src="Vendors/JS/uikit.min.js"></script>
+    <script src="Vendors/Js/uikit-icons.min.js"></script>
+    <script src="Vendors/JS/mixitup.min.js"></script>
+    <script src="Vendors/JS/particles.min.js"></script>
+    <script src="Vendors/JS/app.js"></script>
+    <script src="Resources/JS/script.js"></script>
+</body>
+</html>
